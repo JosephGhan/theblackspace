@@ -74,6 +74,11 @@
         margin-right: auto;
         padding-top: 30px;
     } 
+    #cara {
+        display: block;
+        width: 80%;
+        padding-bottom: 20px;
+    }
     #logo {
         padding-bottom: 50px;
     }
