@@ -1,3 +1,61 @@
+html {
+    background-image: url("Images/background2.jpg");
+    /* background-repeat: no-repeat;
+    background-size: 100% 100%; */
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+}
+
+body {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+p {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+img {
+    display: block;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+} 
+#cara {
+    display: block;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+#logo {
+    padding-bottom: 50px;
+}
+#insta {
+    padding-top: 0px;
+    width: 60%;
+}
+#logoDiv {
+    border-bottom: 5px solid black;
+    margin-bottom: 20px;
+}
+#socialPics {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+footer {
+    text-align: center;
+}
+
 @media only screen and (max-width: 600px){
     html {
         font-family: 'Roboto', sans-serif;
@@ -12,7 +70,7 @@
         width: 100px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 20px;
+        margin-top: 0px;
         padding-bottom: 20px;
     }
     p {
@@ -32,71 +90,7 @@
     #insta {
         width: 250px;
     }
-    h1, h2, h3 {
-        text-align: center;
-    }
-    footer {
-        text-align: center;
-    }
     #logoDiv {
         border-bottom: 5px solid black;
-    }
-}
-
-@media only screen and (min-width: 601px){
-    html {
-        background-image: url("Images/static.png");
-        font-family: 'Roboto', sans-serif;
-        font-family: 'Montserrat', sans-serif;
-        font-size: larger;
-    }
-
-    body {
-        width: 60%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    h1, h2, h3 {
-        text-align: center;
-    }
-    p {
-        display: block;
-        width: 60%;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-    }
-    img {
-        display: block;
-        width: auto;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 30px;
-    } 
-    #cara {
-        display: block;
-        width: auto;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-bottom: 20px;
-    }
-    #logo {
-        padding-bottom: 50px;
-    }
-    #insta {
-        padding-top: 0px;
-        width: 60%;
-    }
-    #logoDiv {
-        border-bottom: 5px solid black;
-        margin-bottom: 20px;
-    }
-    #socialPics {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    footer {
-        text-align: center;
     }
 }
